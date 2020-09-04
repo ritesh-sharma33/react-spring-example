@@ -10,16 +10,25 @@ const items = [
         background:
           "url(https://images.pexels.com/photos/1904769/pexels-photo-1904769.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat"
       }}
-    >
-    </animated.div>
+    />
   ),
   ({ style }) => (
-    <animated.div style={{ ...style, background: "url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat" }}></animated.div>
+    <animated.div
+      style={{
+        ...style,
+        background:
+          "url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat"
+      }}
+    />
   ),
   ({ style }) => (
-    <animated.div style={{ ...style, background: "url(https://images.pexels.com/photos/2387866/pexels-photo-2387866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat" }}>
-      
-    </animated.div>
+    <animated.div
+      style={{
+        ...style,
+        background:
+          "url(https://images.pexels.com/photos/2387866/pexels-photo-2387866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat"
+      }}
+    />
   )
 ];
 
